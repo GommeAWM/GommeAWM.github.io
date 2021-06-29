@@ -1,13 +1,58 @@
 element.style {
 }
-#simple-translate {
-    all: initial;
-    --simple-translate-main-text:  #0c0c0d;
-    --simple-translate-sub-text:  #737373;
-    --simple-translate-line:  #ededf0;
-    --simple-translate-button:  #d7d7db;
-    --simple-translate-highlight:  #5595ff;
-    --simple-translate-main-bg:  #ffffff;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+Benutzer-Agent-Stylesheet
+html {
+    display: block;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body {
+    background: #fff;
+    overflow: hidden;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -22,6 +67,49 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+Benutzer-Agent-Stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#wrapper {
+    -moz-animation: wrapper 3s forwards;
+    -webkit-animation: wrapper 3s forwards;
+    -ms-animation: wrapper 3s forwards;
+    animation: wrapper 3s forwards;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
 div {
     display: block;
 }
@@ -48,32 +136,18 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-html {
-    display: block;
+0% {
+    opacity: 0;
 }
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+100% {
+    opacity: 1;
 }
-, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+element.style {
 }
 #main {
     height: 100%;
@@ -96,6 +170,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+Benutzer-Agent-Stylesheet
 div {
     display: block;
 }
@@ -135,25 +210,7 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-#header h1 {
-    font-size: 4.35em;
-    font-weight: 900;
-    letter-spacing: -.035em;
-    line-height: 1em;
-}
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+element.style {
 }
 #header {
     -moz-animation: header 1s 2.25s forwards;
@@ -177,36 +234,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: middle;
     width: 90%;
 }
-body, input, select, textarea {
-    color: #fff;
-    font-family: source sans pro, sans-serif;
-    font-size: 15pt;
-    font-weight: 300!important;
-    letter-spacing: -.025em;
-    line-height: 1.75em;
-}
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-body, input, select, textarea {
-    color: #fff;
-    font-family: source sans pro, sans-serif;
-    font-size: 15pt;
-    font-weight: 300!important;
-    letter-spacing: -.025em;
-    line-height: 1.75em;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -215,6 +244,471 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
+header {
+    display: block;
+}
+#main {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+0% {
+    -moz-transform: translate3d(0, 1em, 0);
+    -webkit-transform: translate3d(0, 1em, 0);
+    -ms-transform: translate3d(0, 1em, 0);
+    transform: translate3d(0, 1em, 0);
+    opacity: 0;
+}
+100% {
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+element.style {
+}
+#header h1 {
+    font-size: 4.35em;
+    font-weight: 900;
+    letter-spacing: -.035em;
+    line-height: 1em;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#header {
+    -moz-animation: header 1s 2.25s forwards;
+    -webkit-animation: header 1s 2.25s forwards;
+    -ms-animation: header 1s 2.25s forwards;
+    animation: header 1s 2.25s forwards;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    cursor: default;
+    display: inline-block;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    top: -1em;
+    vertical-align: middle;
+    width: 90%;
+}
+#main {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#header p {
+    font-size: 1.25em;
+    margin: .75em 0 .25em;
+    opacity: .75;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#header {
+    -moz-animation: header 1s 2.25s forwards;
+    -webkit-animation: header 1s 2.25s forwards;
+    -ms-animation: header 1s 2.25s forwards;
+    animation: header 1s 2.25s forwards;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    cursor: default;
+    display: inline-block;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    top: -1em;
+    vertical-align: middle;
+    width: 90%;
+}
+#main {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#header nav {
+    margin: 1.5em 0 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
+nav {
+    display: block;
+}
+#header {
+    -moz-animation: header 1s 2.25s forwards;
+    -webkit-animation: header 1s 2.25s forwards;
+    -ms-animation: header 1s 2.25s forwards;
+    animation: header 1s 2.25s forwards;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    cursor: default;
+    display: inline-block;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    top: -1em;
+    vertical-align: middle;
+    width: 90%;
+}
+#main {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+ol, ul {
+    list-style: none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#header {
+    -moz-animation: header 1s 2.25s forwards;
+    -webkit-animation: header 1s 2.25s forwards;
+    -ms-animation: header 1s 2.25s forwards;
+    animation: header 1s 2.25s forwards;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    cursor: default;
+    display: inline-block;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    top: -1em;
+    vertical-align: middle;
+    width: 90%;
+}
+#main {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element.style {
+}
+#footer {
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 75%);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 75%);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 75%);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 75%);
+    bottom: 0;
+    cursor: default;
+    height: 6em;
+    left: 0;
+    line-height: 8em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Benutzer-Agent-Stylesheet
+footer {
+    display: block;
+}
+#main {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
 }
 *, *:before, *:after {
     -moz-box-sizing: border-box;
