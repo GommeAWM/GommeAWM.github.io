@@ -1,0 +1,50 @@
+element.style {
+}
+#simple-translate {
+    all: initial;
+    --simple-translate-main-text:  #0c0c0d;
+    --simple-translate-sub-text:  #737373;
+    --simple-translate-line:  #ededf0;
+    --simple-translate-button:  #d7d7db;
+    --simple-translate-highlight:  #5595ff;
+    --simple-translate-main-bg:  #ffffff;
+}
+ #simple {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+@media screen and (max-width: 1680px)
+body, input, select, textarea {
+    font-size: 13pt;
+}
+body, input, select, textarea {
+    color: #fff;
+    font-family: source sans pro, sans-serif;
+    font-size: 15pt;
+    font-weight: 300!important;
+    letter-spacing: -.025em;
+    line-height: 1.75em;
+}
+body {
+    -webkit-text-size-adjust: none;
+}
+body {
+    line-height: 1;
+}
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
