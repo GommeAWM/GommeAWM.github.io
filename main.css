@@ -36,3 +36,11 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+body, input, select, textarea {
+  color: white;
+  font-family: source sans pro, sans-serif;
+  font-size: 15pt;
+  font-weight: 300!important;
+  letter-spacing: -.025em;
+  line-height: 1.75em;
+}
